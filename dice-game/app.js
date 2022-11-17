@@ -142,3 +142,7 @@ document.querySelector('.btn-new').addEventListener('click', initGame);
 // document.querySelector('.btn-new').addEventListener('click', function() {
 // 	initGame();
 // });
+
+function togglePopup() {
+	document.getElementById("popup-1").classList.toggle("active");
+}

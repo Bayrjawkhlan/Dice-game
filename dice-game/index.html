@@ -30,10 +30,24 @@
                 </div>
             </div>
             
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+                        <h1>Instruction</h1>
+                        <br>
+                        <p>
+                            How to play dicegame?<br>
+                            The game is played by two players and whoever collects 100 points first wins.<br>
+                            If the dice lands 1, it moves to the next player.<br>
+                        </p>
+                </div>    
+            </div>
+
             <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
             <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
             <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
-            <button class="btn-inst"><i class="ion-ios-paper-outline"></i>Instruction</button>
+            <button class="btn-inst" onclick="togglePopup()"><i class="ion-ios-paper-outline"></i>Instruction</button>
             
             <img src="dice-5.png" alt="Dice" class="dice">
         </div>
