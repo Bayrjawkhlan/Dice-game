@@ -161,10 +161,14 @@ i {
     width: 450px;
     height: 220px;
     z-index: 2;
-    text-align: center;
     padding: 20px;
     box-sizing: border-box;
 }
+
+.popup .content h1 {
+    text-align: center;
+}
+
 
 .popup .close-btn {
     cursor: pointer;
